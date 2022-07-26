@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #e3e3e3;
+}
+.container {
+    padding: 20px;
+    background: #e3e3e3;
+    border-radius: 8px;
+    box-shadow: 4px 4px 10px rgb(183, 183, 183) , -4px -4px 10px #fff;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    color: #626262;
+    cursor: pointer;
+}
+.img_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgb(183, 183, 183) , -2px -2px 5px #fff;
+}
+h1, p {
+    text-align: center;
+    color: #626262;
+}
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.socials i {
+    width: 50px;
+    height: 50px;
+    font-size: 26px;
+    padding: 10px;
+    margin: 10px 5px;
+    box-shadow: 2px 2px 5px rgb(183, 183, 183) , -2px -2px 5px #fff;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.socials i:hover {
+    box-shadow: inset 2px 2px 5px rgb(183, 183, 183) , inset -2px -2px 5px #fff;
+}
+.fa-facebook-f {
+    color: #4267B2;
+}
+.fa-twitter {
+    color: #1DA1F2;
+}
+.fa-instagram {
+    color: #C136A5;
+}
+.fa-youtube {
+    color: #FF0000;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+.buttons .btn {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 5px;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background: #e3e3e3;
+    box-shadow: 2px 2px 5px rgb(183, 183, 183) , -2px -2px 5px #fff;
+    cursor: pointer;
+    color: #626262;
+}
+.buttons .btn:hover {
+    box-shadow: inset 2px 2px 5px rgb(183, 183, 183) ,inset -2px -2px 5px #fff;
+}
+.followers {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;    
+    color: #626262;
+}
